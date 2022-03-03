@@ -2,7 +2,7 @@
 1. Install metamask chrome extension and make sure the setting to show test network is enabled
 2. In the terminal run ```npm i``` to install all the dependencies
 3. Next, run the hardhat command: ```npx hardhat node``` to get a local blockchain node
-4. Once the local node is setup, we can go ahead and deploy the contract on the local node
+4. Once the localnode is setup, we can go ahead and deploy the contract locally using ```npx hardhat run scripts/deploy.js --network localhost```
 5. At the end, to start the frontend, run ```npm run dev```
 #### NOTE: Please setup your .env file before running the commands.
 
