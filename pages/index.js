@@ -15,7 +15,7 @@ export default function Home(){
     },[]);
     
     async function fetchNFTs(){
-        const provider  = new ethers.providers.JsonRpcProvider();
+        const provider  = new ethers.providers.JsonRpcProvider("https://polygon-mumbai.g.alchemy.com/v2/PXeMYUf4HvJkABsaPZQGqOm0yATF2QEy");
         console.log(provider);
         //Referencing the smart contracts
         const tokenContract = new ethers.Contract(nftaddress, NFT.abi, provider);
