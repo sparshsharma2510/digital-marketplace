@@ -1,15 +1,9 @@
-# Basic Sample Hardhat Project
+## How to interact with the dapp:
+1. Install metamask chrome extension and make sure the setting to show test network is enabled
+2. In the terminal run ```npm i``` to install all the dependencies
+3. Next, run the hardhat command: ```npx hardhat node``` to get a local blockchain node
+4. Once the localnode is setup, we can go ahead and deploy the contract locally using ```npx hardhat run scripts/deploy.js --network localhost```
+5. At the end, to start the frontend, run ```npm run dev```
+#### NOTE: Please setup your .env file before running the commands.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+This project has a fully commented smart contract for the funtions used so as beginners are able to understand the functions/features provided by OpenZepplin in their ERC721 contract.
